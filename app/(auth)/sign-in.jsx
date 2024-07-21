@@ -14,7 +14,7 @@ const SignIn = () => {
   return (
     <SafeAreaView className="bg-primary h-full">
       <ScrollView>
-        <View className=" w-full justify-center h-full px-4 my-6">
+        <View className=" w-full justify-center min-h-[83vh]  px-4 my-6">
           <Image source={images.logo} className="w-[115px] h-[35px]" resizeMode="contain" />
           <Text className="text-2xl text-white text-semibold font-psemibold mt-10">Log into Aora</Text>
           <FormField title="Email" value={form.email} handleChangeText={(e) => setForm({ ...form, email: e })} otherStyles="mt-7" keyboardType="email-address" />
