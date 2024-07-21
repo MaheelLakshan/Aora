@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 
-const SignOut = () => {
+const SignUp = () => {
   return (
     <View>
-      <Text>SignOut</Text>
+      <Text>SignUp</Text>
     </View>
   );
 };
 
-export default SignOut;
+export default SignUp;
 
 const styles = StyleSheet.create({});
